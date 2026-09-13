@@ -1,0 +1,4 @@
+RewriteEngine On # Activa el motor de reescritura
+Options All -Indexes # No permite visualizar los archivos de las carpetas
+RewriteRule ^([a-zA-Z0-9/ñÑ-]+)$index.php?views=$1 # A partir del index podemos navegar entre rutas
+
